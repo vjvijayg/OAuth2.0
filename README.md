@@ -2,15 +2,14 @@
 Starter Code for Auth&amp;Auth course
 # Installing the Vagrant VM for ud330 - Authentication & Authorization
 
-**Note: If you already have a vagrant machine installed from previous Udacity courses skip to the 'Fetch the Source Code and VM Configuration' section**
+The VM is a Linux system that runs on top of your own machine.
 
-In Lessons 2,3 and 4 of this course, you'll use a virtual machine (VM) to run a web server and a web app that uses it. The VM is a Linux system that runs on top of your own machine.  You can share files easily between your computer and the VM.
+We're using the Vagrant software to configure and manage the VM.
 
-We're using the Vagrant software to configure and manage the VM. Here are the tools you'll need to install to get it running:
-
+## Tools:
 ### Git
 
-If you don't already have Git installed, [download Git from git-scm.com.](http://git-scm.com/downloads) Install the version for your operating system.
+[download Git from git-scm.com.](http://git-scm.com/downloads) Install the version for your operating system.
 
 On Windows, Git will provide you with a Unix-style terminal and shell (Git Bash).  
 (On Mac or Linux systems you can use the regular terminal program.)
@@ -36,7 +35,7 @@ Vagrant is the software that configures the VM and lets you share files between 
 
 From the terminal, run:
 
-    git clone https://github.com/udacity/OAuth2.0 oauth
+    git clone https://github.com/vjvijayg/OAuth2.0 oauth
 
 This will give you a directory named **oauth** complete with the source code for the flask application, a vagrantfile, and a bootstrap.sh file for installing all of the necessary tools. 
 
