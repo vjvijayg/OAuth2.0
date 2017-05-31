@@ -236,6 +236,7 @@ def getUserID(email):
 def gdisconnect():
     # Only disconnect a connected user.
     credentials = login_session.get('credentials')
+    print "Credentials: ", credentials
     if credentials is None:
         response = make_response(
             json.dumps('Current user not connected.'), 401)
